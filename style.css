@@ -10,6 +10,7 @@ h1 {
   font-size: 3em;
   font-weight: 500;
 }
+/Users/alihaiderkhan/Desktop/Anvendt data, Ali/1.året/1.semester/Webutvikling/portfolio/portfolio/style.css
 html,
 body {
   width: 100vw;
@@ -82,4 +83,22 @@ body {
 .medium-circle.n3 {
   top: 60vh;
   left: 70vw;
+}
+@media (max-width: 800px) {
+  .div1 {
+    max-width: 100vw;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+  }
+  .div1 > * {
+    width: 100%;
+  }
+  .image-container {
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 70vh;
+   
+  }
 }
